@@ -14,7 +14,6 @@ The method extends gradient-based approaches (e.g., *GlitchMiner*) by combining:
 
 This enables more global exploration of the token embedding landscape and improved glitch discovery under fixed evaluation budgets.
 
----
 
 ## Core Idea
 
@@ -25,7 +24,6 @@ Glitch-token mining is treated as a **mixed discrete–continuous optimization p
 
 Gradient-only local search can stall in irregular regions (particularly in MoE architectures). The hybrid GA+PSO approach enables non-local exploration and better coverage.
 
----
 
 ## Summary
 
@@ -37,7 +35,6 @@ Tested on:
 
 The hybrid method consistently discovers more glitch tokens than gradient-based baselines under equal evaluation budgets, with especially strong gains on mixture-of-experts models.
 
----
 
 ## Why This Matters
 
